@@ -1,37 +1,21 @@
-*{
-    margin: 0px;
-    padding: 0 px;
-    font-family: "Roboto", Arial, Tahoma, sans-serif;
+
+
+.pergamino::first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    float: left;
+    line-height: 1;
+    margin-right: 8px;
+    color: #6b4226;
+    background-image: url(pergamino.jpg);
+    
+
 }
-/* Header and Nav */
-header{
-    position: fixed;
-    width: 100%;
-    height: 70px;  
-    background-color: #F7F9FA;
-}
-nav{
-    max-width: 1024px;
-    margin: 0 auto;
-}
-header img{
-    padding: 18px 10px;
-}
-nav ul{
-    float: right;
-    list-style: none;
-    text-align: center;
-    vertical-align: top;
-}
-nav li{
-    list-style-type: none;
-    padding: 0px;
-    display: inline;
-  
-}
-nav li a{
-    font-size: 1em;
-    text-decoration: none;
-    line-height: 70px;
-    padding: 15px 10px;
+
+.margin {
+
+
+    margin-left: 100px;
+    font-family: 'Vox Populi', serif;
+
 }
